@@ -1,0 +1,1 @@
+execute at @e[tag=vent] run setblock ~ ~ ~ barrier
