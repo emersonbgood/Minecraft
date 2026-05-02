@@ -1,0 +1,1 @@
+tellraw @a [{"text":"emerson's datapack of ","color":"green",bold:true},{"text":"CHAOS AND DESTRUCTION","color":"red","strikethrough":true},{"text":" fun and wonderfulness","color":"green","bold":true}]

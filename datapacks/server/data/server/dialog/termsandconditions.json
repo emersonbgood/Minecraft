@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:confirmation",
+    "title": "IMPORTANT RULES",
+    "external_title": "SERVER RULES",
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": "IF YOU FAIL TO FOLLOW THE FOLLOWING RULES, YOU WILL BE BANNED:\n\n1. no grieving\n2. no stealing\n3. no friendly fire (dammaging or causing physical or mental harm to a player on your team)\n4. if you find a banana, don't eat it\n5. to confirm you have eread the rules, type llama into the text box below\n6. no leaving totattack other players/teams bases until the final day (i'm talking to you Ford). \n7. unless we say so, no closing you computer and leaving minecraft unless you have a good reoson (ex. using the bathroom, getting water) (this one was because of liam)\n",
+            "width": 500
+        }
+    ],
+    "inputs": [
+        {
+            "type": "minecraft:text",
+            "key": "A",
+            "width": 500,
+            "label": "",
+            "label_visible": false,
+            "initial": "enter code here",
+            "max_length": 500,
+            "multiline": {
+                "max_lines": 10,
+                "height": 50
+            }
+        }
+    ],
+    "can_close_with_escape": false,
+    "yes": {
+        "label": "I WILL FOLLOW THESE RULES",
+        "action": {
+            "type": "minecraft:dynamic/run_command",
+            "template": "trigger $(A)"
+        }
+    },
+    "no": {
+        "label": "I SOLEMLEY SWEAR I AM UP TO NO GOOD",
+        "action": {
+            "type": "minecraft:change_page",
+            "payload": "",
+            "page": 2
+        }
+    }
+}

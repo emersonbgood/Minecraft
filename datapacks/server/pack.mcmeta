@@ -1,4 +1,8 @@
 {
-    "pack_format": 6,
-    "description": "A custom datapack for Minecraft servers."
+    "pack": {
+        "description": "ma school server",
+        "pack_format": 94,
+        "min_format": 94,
+        "max_format": 95
+    }
 }
