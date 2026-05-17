@@ -1,9 +1,9 @@
 # Minecraft Code
-i use this for datapacks, resource packs, mods, etc
+i use this for datapacks, resource packs, etc
 
 # versions
 most projects will be for the latest minecraft version
-some will be for only sertain versions. (usualy 1.20.1)
+some will be for only sertain versions.
 
 # bundles
 sometimes i may publish a .zip archive of a datpack and a resource pack
